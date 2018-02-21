@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!DOCTYPE medicalReport SYSTEM "hospital.dtd">
+<medicalReport>
+    <hospital id = "i101">
+        <name>Arkham</name>
+        <location>Gotham</location>
+    </hospital>
+    <hospital id = "i102">
+        <name>General Purpose Hospital</name>
+        <location>LA</location>
+    </hospital>
+    <doctor id = "i15">
+        <docName>Christian Li</docName>
+        <type>Surgeon</type>
+    </doctor>
+    <doctor id = "i16">
+        <docName>Roberto N.</docName>
+        <type>Therapist</type>
+    </doctor>
+    <patient id = "i12">
+        <patientName>John Smith</patientName>
+        <dob>05/15/1990</dob>
+        <illness>flu</illness>
+        <attendingHospital>i101</attendingHospital>
+    </patient>
+    <patient id = "i13">
+        <patientName>Sean Pitt</patientName>
+        <dob>05/11/1993</dob>
+        <illness>cold</illness>
+        <attendingHospital>i102</attendingHospital>
+    </patient>
+</medicalReport>

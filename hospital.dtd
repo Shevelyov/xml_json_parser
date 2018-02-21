@@ -1,0 +1,16 @@
+<!ELEMENT medicalReport (hospital+, doctor+, patient+)>
+<!ELEMENT hospital (name+, location+)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST hospital id ID #REQUIRED >
+<!ELEMENT doctor (docName+, type)>
+<!ELEMENT docName (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ATTLIST doctor id ID #REQUIRED >
+<!ELEMENT patient (patientName+, dob, illness, attendingHospital)>
+<!ELEMENT patientName (#PCDATA)>
+<!ELEMENT dob (#PCDATA)>
+<!ELEMENT illness (#PCDATA)>
+<!ELEMENT attendingHospital (#PCDATA)>
+<!ATTLIST patient id ID #REQUIRED >
+
